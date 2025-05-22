@@ -1,0 +1,83 @@
+{
+	"LOCATION_PARENT_MOON": {
+		"Guid": "fc8971e0-9a49-4366-88f0-3b58df97ff51",
+		"Type": "location",
+		"Subtype": "location",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Icon": "images/locations/moon/tile.jpg",
+			"LockedIcon": "images/locations/moon/tile.jpg",
+			"DlcImage": "images/livetile/dlc/tile_hitman3.jpg",
+			"DlcName": "GAME_STORE_METADATA_S3_GAME_TITLE",
+			"IsLocked": false,
+			"UpcomingContent": false,
+			"UpcomingKey": "UI_MENU_LIVETILE_CONTENT_UPCOMING_HEADLINE",
+			"Background": "images/locations/moon/background.jpg",
+			"Order": 0,
+			"LimitedLoadout": false,
+			"NormalLoadoutUnlock": "",
+			"ProgressionKey": "LOCATION_MOON",
+			"Season": 1,
+			"RequiredResources": [
+				"[assembly:/_pro/scenes/missions/apollo/mission_moonbase/scene_moonbase.entity].entitytemplate"
+			],
+			"Entitlements": ["H1_LEGACY_STANDARD"]
+		}
+	},
+	"LOCATION_MOONBASE": {
+		"Guid": "cf495e50-0ae3-447c-bf9e-8c4a4f6d7014",
+		"Type": "location",
+		"Subtype": "sublocation",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"ParentLocation": "LOCATION_PARENT_MOON",
+			"Icon": "images/apollo/moonbase/tile.jpg",
+			"LockedIcon": "images/apollo/moonbase/tile.jpg",
+			"DlcImage": "images/livetile/dlc/tile_hitman3.jpg",
+			"DlcName": "GAME_STORE_METADATA_S3_GAME_TITLE",
+			"IsLocked": false,
+			"UpcomingContent": false,
+			"UpcomingKey": "UI_MENU_LIVETILE_CONTENT_UPCOMING_HEADLINE",
+			"Background": "images/apollo/moonbase/background.jpg",
+			"Order": 0,
+			"LimitedLoadout": false,
+			"ProgressionKey": "LOCATION_MOONBASE",
+			"CreateContractId": "20f20f02-6b05-46ae-a1bd-f48c9f2d11ee",
+			"HideProgression": false,
+			"RequiredResources": [
+				"[assembly:/_pro/scenes/missions/apollo/mission_moonbase/scene_moonbase.entity].entitytemplate"
+			],
+			"Entitlements": ["H1_LEGACY_EXPANSION"]
+		}
+	},
+	"STARTING_LOCATION_MOONBASE_OUTSIDE": {
+		"Guid": "5f6c757c-ea05-4ce5-83ad-de90e08ef13c",
+		"Type": "access",
+		"Subtype": "startinglocation",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Location": "LOCATION_MOONBASE",
+			"RepositoryId": "f1d618f3-1906-43a4-8e5c-01a4816a96bb",
+			"Equip": [],
+			"UnlockOrder": 3
+		}
+	}
+}

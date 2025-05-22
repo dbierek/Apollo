@@ -1,49 +1,38 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"id": "HitmanModder.HitmanCampaignDemo",
-	"name": "Hitman Campaign Demo",
-	"description": "This mod is a Hitman Campaign Demo mod.",
-	"authors": ["Hitman Modder"],
+	"id": "AtomicForce.Apollo",
+	"name": "Apollo",
+	"description": "A campaign that takes you to the moon.",
+	"authors": ["AtomicForce"],
 	"frameworkVersion": "2.33.25",
-	"version": "0.7.0",
+	"version": "0.1.0",
 	"blobsFolders": ["blobs"],
 	"contentFolders": ["content"],
 	"dependencies": [],
-	"peacockPlugins": ["HitmanCampaignDemo.plugin.js"],
+	"peacockPlugins": ["Apollo.plugin.js"],
 	"packagedefinition": [
 		{
 			"type": "entity",
-			"partition": "greedy",
-			"path": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity].entitytemplate"
-		},
-		{
-			"type": "entity",
 			"partition": "season3",
-			"path": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity].entitytemplate"
+			"path": "[assembly:/_pro/scenes/missions/apollo/mission_moonbase/scene_moonbase.entity].entitytemplate"
 		}
 	],
 	"localisation": {
 		"english": {
-			"UI_HITMAN_CAMPAIGN_DEMO": "Hitman Campaign Demo",
+			"UI_APOLLO": "Apollo",
 			"UI_STORY": "Story",
-			"UI_BANK_DESC": "I need to take out Target McTargetface.",
-			"UI_BANK_TITLE": "Bank mission",
-			"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DEFAULT_NAME": "CEO's Office",
-			"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC": "47 has made his way to the CEO's office.",
-			"NPC_TARGET_MCTARGETFACE_NAME": "Target McTargetface",
-			"NPC_TARGET_MCTARGETFACE_DESC": "Target McTargetface is the new CEO of the Milton-Fitzpatrick Bank.",
-			"UI_LOCATION_PARENT_MODLANDIA_COUNTRY": "Modlandia",
-			"UI_LOCATION_MODTOWN_COUNTRY": "Modlandia",
-			"UI_LOCATION_PARENT_MODLANDIA_CITY": "Modtown",
-			"UI_LOCATION_MODTOWN_CITY": "Modtown",
-			"UI_LOCATION_MODTOWN_TITLE": "Modtown Throwdown",
-			"UI_MODTOWN_DESC": "I need to take out Super Targetman.",
-			"UI_MODTOWN_TITLE": "Modtown Throwdown mission",
-			"UI_STARTING_LOCATION_MODTOWN_OUTSIDE_DEFAULT_NAME": "Outside",
-			"UI_STARTING_LOCATION_MODTOWN_OUTSIDE_DESC": "47 has made his way outside in Modtown.",
-			"NPC_SUPER_TARGETMAN_NAME": "Super Targetman",
-			"NPC_SUPER_TARGETMAN_DESC": "Super Targetman is the villian of Modlandia."
+			"UI_LOCATION_PARENT_MOON_COUNTRY": "Moon",
+			"UI_LOCATION_MOONBASE_COUNTRY": "Moonbase",
+			"UI_LOCATION_PARENT_MOON_CITY": "Moonbase",
+			"UI_LOCATION_MOONBASE_CITY": "Moonbase",
+			"UI_LOCATION_MOONBASE_TITLE": "Moon Shot",
+			"UI_MOONBASE_DESC": "I need to take out Luke Starkiller.",
+			"UI_MOONBASE_TITLE": "Moon Shot",
+			"UI_STARTING_LOCATION_MOONBASE_OUTSIDE_DEFAULT_NAME": "Outside on Lunar Surface",
+			"UI_STARTING_LOCATION_MOONBASE_OUTSIDE_DESC": "47 has landed on the Moon and is outside the Moonbase.",
+			"NPC_LUKE_STARKILLER_NAME": "Luke Starkiller",
+			"NPC_LUKE_STARKILLER_DESC": "Luke Starkiller is the villain of the Moonbase."
 		}
 	},
-	"updateCheck": "https://github.com/dbierek/HitmanCampaignDemo/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/dbierek/Apollo/releases/latest/download/updates.json"
 }

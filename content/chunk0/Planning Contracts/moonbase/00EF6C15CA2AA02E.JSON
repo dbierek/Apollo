@@ -1,0 +1,21 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/apollo/mission_moonbase/scene_moonbase.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "f1d618f3-1906-43a4-8e5c-01a4816a96bb",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": true,
+            "WorldTransform": "0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0"
+        }
+	],
+	"Exits": [
+      {
+        "id": "b6ddfde0-e5b9-4f67-98f2-1ff945f98154",
+        "WorldTransform": "0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0",
+        "RequireKey": false
+      }
+	],
+	"AgencyPickups": [
+	]
+}

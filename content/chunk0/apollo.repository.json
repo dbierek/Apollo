@@ -1,0 +1,29 @@
+{
+	"f1d618f3-1906-43a4-8e5c-01a4816a96bb": {
+		"Image": "images/entrances/moonbase/moonbase_entrance_outside.jpg",
+		"Name_LOC": "UI_STARTING_LOCATION_MOONBASE_OUTSIDE_DEFAULT_NAME",
+		"Name": "Moonbase Outside Starting Location",
+		"Description": "UI_STARTING_LOCATION_MOONBASE_OUTSIDE_DESC"
+	},
+	"36669e22-7dda-4eac-ac40-0c5a9dcd4f33": {
+		"CharacterSetIndex": 0.0,
+		"Description": "Luke Starkiller",
+		"Description_LOC": "actor_description",
+		"Image": "images/apollo/moonbase/luke_starkiller.jpg",
+		"Name": "Luke Starkiller",
+		"Outfit": "5f19af97-4ad1-46e4-aaf6-46f856519072",
+		"OutfitVariationIndex": 0.0,
+		"Tile": "images/apollo/moonbase/luke_starkiller.jpg"
+	},
+	"5f19af97-4ad1-46e4-aaf6-46f856519072": {
+		"CommonName": "Outfit Luke Starkiller",
+		"Description": "Outfit Luke Starkiller",
+		"Name": "Outfit Luke Starkiller",
+		"Category": "",
+		"HeroDisguiseAvailable": false,
+		"Image": "",
+		"ImageTransparent": "",
+		"IsHitmanSuit": false,
+		"TokenID": ""
+	}
+}

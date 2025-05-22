@@ -1,0 +1,64 @@
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [
+			{
+				"Id": "26fdc2ac-7b4f-4403-a18b-4db04c1756cb",
+				"Category": "primary",
+				"ObjectiveType": "setpiece",
+				"DisplayAsKillObjective": true,
+				"ForceShowOnLoadingScreen": true,
+				"IsHidden": false,
+				"BriefingName": "$($repository 36669e22-7dda-4eac-ac40-0c5a9dcd4f33).Name",
+				"Image": "images/apollo/moonbase/luke_starkiller.jpg",
+				"HUDTemplate": {
+					"display": "Eliminate Luke Starkiller"
+				},
+				"BriefingText": "Eliminate Luke Starkiller",
+				"SuccessEvent": {
+					"EventName": "Kill",
+					"EventValues": {
+						"RepositoryId": "36669e22-7dda-4eac-ac40-0c5a9dcd4f33"
+					}
+				}
+			}
+		],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": []
+			}
+		],
+		"Bricks": [],
+		"DevOnlyBricks": [],
+		"Entrances": ["f1d618f3-1906-43a4-8e5c-01a4816a96bb"],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "a7bd44d6-2545-45f8-a716-922e74670cca",
+		"IsPublished": true,
+		"Title": "UI_MOONBASE_TITLE",
+		"Description": "UI_MOONBASE_DESC",
+		"CodeName_Hint": "Moonbase",
+		"ScenePath": "assembly:/_pro/scenes/missions/apollo/mission_moonbase/scene_moonbase.entity",
+		"TileImage": "images/apollo/moonbase/tile.jpg",
+		"Location": "LOCATION_MOONBASE",
+		"LastUpdate": "2025-05-02T19:44:00.000Z",
+		"CreationTimestamp": "2025-05-02T19:44:00.000Z",
+		"CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
+		"Type": "mission",
+		"Release": "3.0.0",
+		"Entitlements": ["H2_LEGACY_EXPANSION"]
+	},
+	"UserData": {},
+	"SMF": {}
+}
