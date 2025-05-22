@@ -65,9 +65,7 @@ module.exports = function ApolloPlugin(controller) {
 			ProgressionKey: "LOCATION_MOONBASE",
 			CreateContractId: "20f20f02-6b05-46ae-a1bd-f48c9f2d11ee",
 			HideProgression: false,
-			RequiredResources: [
-				"[assembly:/_pro/scenes/missions/apollo/moonbase/scene_moonbase.entity].entitytemplate"
-			],
+			RequiredResources: ["[assembly:/_pro/scenes/missions/apollo/moonbase/scene_moonbase.entity].entitytemplate"],
 			Entitlements: []
 		}
 	}
@@ -149,9 +147,7 @@ module.exports = function ApolloPlugin(controller) {
 	controller.hooks.contributeCampaigns.tap(
 		"ApolloPlugin",
 		(campaigns, genSingleMissionFunc, genSingleVideoFunc, gameVersion) => {
-			const storyData = [
-				genSingleMissionFunc("a7bd44d6-2545-45f8-a716-922e74670cca", gameVersion)
-			]
+			const storyData = [genSingleMissionFunc("a7bd44d6-2545-45f8-a716-922e74670cca", gameVersion)]
 
 			const campaignTemplate = {
 				Type: "",

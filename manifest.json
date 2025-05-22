@@ -5,7 +5,7 @@
 	"description": "A campaign that takes you to the moon.",
 	"authors": ["AtomicForce"],
 	"frameworkVersion": "2.33.25",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"blobsFolders": ["blobs"],
 	"contentFolders": ["content"],
 	"dependencies": [],
