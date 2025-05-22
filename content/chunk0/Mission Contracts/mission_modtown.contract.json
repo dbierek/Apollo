@@ -1,0 +1,64 @@
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [
+			{
+				"Id": "8c0ef36d-596f-43b5-9683-f42fa23ffbb6",
+				"Category": "primary",
+				"ObjectiveType": "setpiece",
+				"DisplayAsKillObjective": true,
+				"ForceShowOnLoadingScreen": true,
+				"IsHidden": false,
+				"BriefingName": "$($repository 3ad08b0b-5338-4455-9d02-5a5ac08a2276).Name",
+				"Image": "images/campaign_demo/modtown/super_targetman.jpg",
+				"HUDTemplate": {
+					"display": "Eliminate Super Targetman"
+				},
+				"BriefingText": "Eliminate Super Targetman",
+				"SuccessEvent": {
+					"EventName": "Kill",
+					"EventValues": {
+						"RepositoryId": "3ad08b0b-5338-4455-9d02-5a5ac08a2276"
+					}
+				}
+			}
+		],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": []
+			}
+		],
+		"Bricks": [],
+		"DevOnlyBricks": [],
+		"Entrances": ["0cd9e0da-774d-4dd5-adb2-a45d31416cad"],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "6b7459e0-7dd8-4ef4-9747-61458f9d7da9",
+		"IsPublished": true,
+		"Title": "UI_MODTOWN_TITLE",
+		"Description": "UI_MODTOWN_DESC",
+		"CodeName_Hint": "Modtown",
+		"ScenePath": "assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity",
+		"TileImage": "images/campaign_demo/modtown/tile.jpg",
+		"Location": "LOCATION_MODTOWN",
+		"LastUpdate": "2025-05-02T19:44:00.000Z",
+		"CreationTimestamp": "2025-05-02T19:44:00.000Z",
+		"CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
+		"Type": "mission",
+		"Release": "3.0.0",
+		"Entitlements": ["H2_LEGACY_EXPANSION"]
+	},
+	"UserData": {},
+	"SMF": {}
+}

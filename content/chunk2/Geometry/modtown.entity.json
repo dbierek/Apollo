@@ -1,0 +1,94 @@
+{
+	"tempHash": "00ADB41DAEFF3F47",
+	"tbluHash": "0044D4DB3EE718FE",
+	"rootEntity": "cafe251c070c4b25",
+	"entities": {
+		"cafe251c070c4b25": {
+			"parent": null,
+			"name": "modtown",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe9164cefd42d1": {
+			"parent": "cafe251c070c4b25",
+			"name": "modland_geomentity",
+			"factory": "[assembly:/_pro/environment/geometry/modtown/modtown.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe251c070c4b25",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2f7f98dfa3ab": {
+			"parent": "cafe9164cefd42d1",
+			"name": "metal_copper_b",
+			"factory": "[assembly:/_pro/environment/materials/generic/metal/metal_copper_b.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/metal/metal_copper_b.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"Override": { "type": "bool", "value": true },
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/textures/custom/metal/metal_brushed_green_a.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ShaderLOD_Distance_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ShaderLOD_Distance": {
+					"type": "float32",
+					"value": 9999999999
+				},
+				"ShaderLOD_Speccolor_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ShaderLOD_Speccolor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Active": { "type": "bool", "value": true },
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe9164cefd42d1"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9164cefd42d1",
+					"postInit": true
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

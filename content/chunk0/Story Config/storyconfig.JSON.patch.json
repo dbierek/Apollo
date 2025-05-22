@@ -1,0 +1,30 @@
+{
+	"file": "0093B70B9E704CE0",
+	"type": "JSON",
+	"patch": [
+		{
+			"op": "add",
+			"path": "/0",
+			"value": {
+				"Name": "UI_HITMAN_CAMPAIGN_DEMO",
+				"Image": "",
+				"Type": "mission",
+				"Properties": {
+					"BackgroundImage": "images/campaign_demo/campaign_demo_tile.jpg"
+				},
+				"StoryData": [
+					{
+						"Type": "Mission",
+						"Id": "f71db402-38ef-4af6-b35b-34eedf432c87",
+						"_comment": "The bank mission for the Hitman Campaign Demo"
+					},
+					{
+						"Type": "Mission",
+						"Id": "6b7459e0-7dd8-4ef4-9747-61458f9d7da9",
+						"_comment": "The Modtown Throwdown mission for the Hitman Campaign Demo"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"id": "HitmanModder.HitmanCampaignDemo",
+	"name": "Hitman Campaign Demo",
+	"description": "This mod is a Hitman Campaign Demo mod.",
+	"authors": ["Hitman Modder"],
+	"frameworkVersion": "2.33.25",
+	"version": "0.7.0",
+	"blobsFolders": ["blobs"],
+	"contentFolders": ["content"],
+	"dependencies": [],
+	"peacockPlugins": ["HitmanCampaignDemo.plugin.js"],
+	"packagedefinition": [
+		{
+			"type": "entity",
+			"partition": "greedy",
+			"path": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "season3",
+			"path": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity].entitytemplate"
+		}
+	],
+	"localisation": {
+		"english": {
+			"UI_HITMAN_CAMPAIGN_DEMO": "Hitman Campaign Demo",
+			"UI_STORY": "Story",
+			"UI_BANK_DESC": "I need to take out Target McTargetface.",
+			"UI_BANK_TITLE": "Bank mission",
+			"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DEFAULT_NAME": "CEO's Office",
+			"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC": "47 has made his way to the CEO's office.",
+			"NPC_TARGET_MCTARGETFACE_NAME": "Target McTargetface",
+			"NPC_TARGET_MCTARGETFACE_DESC": "Target McTargetface is the new CEO of the Milton-Fitzpatrick Bank.",
+			"UI_LOCATION_PARENT_MODLANDIA_COUNTRY": "Modlandia",
+			"UI_LOCATION_MODTOWN_COUNTRY": "Modlandia",
+			"UI_LOCATION_PARENT_MODLANDIA_CITY": "Modtown",
+			"UI_LOCATION_MODTOWN_CITY": "Modtown",
+			"UI_LOCATION_MODTOWN_TITLE": "Modtown Throwdown",
+			"UI_MODTOWN_DESC": "I need to take out Super Targetman.",
+			"UI_MODTOWN_TITLE": "Modtown Throwdown mission",
+			"UI_STARTING_LOCATION_MODTOWN_OUTSIDE_DEFAULT_NAME": "Outside",
+			"UI_STARTING_LOCATION_MODTOWN_OUTSIDE_DESC": "47 has made his way outside in Modtown.",
+			"NPC_SUPER_TARGETMAN_NAME": "Super Targetman",
+			"NPC_SUPER_TARGETMAN_DESC": "Super Targetman is the villian of Modlandia."
+		}
+	},
+	"updateCheck": "https://github.com/dbierek/HitmanCampaignDemo/releases/latest/download/updates.json"
+}

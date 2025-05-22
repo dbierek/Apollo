@@ -1,0 +1,56 @@
+{
+	"0cd9e0da-774d-4dd5-adb2-a45d31416cad": {
+		"Image": "images/entrances/modtown/modtown_entrance_outside.jpg",
+		"Name_LOC": "UI_STARTING_LOCATION_MODTOWN_OUTSIDE_DEFAULT_NAME",
+		"Name": "Outside Starting Location",
+		"Description": "UI_STARTING_LOCATION_MODTOWN_OUTSIDE_DESC"
+	},
+	"6ba75011-7675-4843-9b9b-3e3618c30c97": {
+		"Image": "images/entrances/bank/bank_entrance_ceo.jpg",
+		"Name_LOC": "UI_STARTING_LOCATION_BANK_CEO_OFFICE_DEFAULT_NAME",
+		"Name": "Bank CEO Office Starting Location",
+		"Description": "UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC"
+	},
+	"3ad08b0b-5338-4455-9d02-5a5ac08a2276": {
+		"CharacterSetIndex": 0.0,
+		"Description": "Super Targetman",
+		"Description_LOC": "actor_description",
+		"Image": "images/campaign_demo/modtown/super_targetman.jpg",
+		"Name": "Super Targetman",
+		"Outfit": "5f19af97-4ad1-46e4-aaf6-46f856519072",
+		"OutfitVariationIndex": 0.0,
+		"Tile": "images/campaign_demo/modtown/super_targetman.jpg"
+	},
+	"5f19af97-4ad1-46e4-aaf6-46f856519072": {
+		"CommonName": "Outfit Super Targetman",
+		"Description": "Outfit Super Targetman",
+		"Name": "Outfit Super Targetman",
+		"Category": "",
+		"HeroDisguiseAvailable": false,
+		"Image": "",
+		"ImageTransparent": "",
+		"IsHitmanSuit": false,
+		"TokenID": ""
+	},
+	"ac24fc2f-8e34-4173-ba65-e6e267d4f973": {
+		"CommonName": "Outfit Target McTargetface",
+		"Description": "Outfit Target McTargetface",
+		"Name": "Outfit Target McTargetface",
+		"Category": "",
+		"HeroDisguiseAvailable": false,
+		"Image": "",
+		"ImageTransparent": "",
+		"IsHitmanSuit": false,
+		"TokenID": ""
+	},
+	"6bffc1f0-6039-4862-b821-027a5dad3bae": {
+		"CharacterSetIndex": 0.0,
+		"Description": "Target McTargetface",
+		"Description_LOC": "actor_description",
+		"Image": "images/campaign_demo/bank/target_mc_targetface.jpg",
+		"Name": "Target McTargetface",
+		"Outfit": "ac24fc2f-8e34-4173-ba65-e6e267d4f973",
+		"OutfitVariationIndex": 0.0,
+		"Tile": "images/campaign_demo/bank/target_mc_targetface.jpg"
+	}
+}
