@@ -667,7 +667,7 @@
 					"type": "ZGuid",
 					"value": "5f19af97-4ad1-46e4-aaf6-46f856519072"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Luke Starkiller"

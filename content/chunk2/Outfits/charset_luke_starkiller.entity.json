@@ -7,16 +7,7 @@
 			"parent": "cafedd4e7237be98",
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/apollo/outfit_luke_starkiller_actor_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		},
 		"cafedd4e7237be98": {
 			"parent": "cafefbc99573106a",
@@ -26,7 +17,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe5ba8669d402c"]
+					"value": ["cafe5ba8669d402c", "cafe66eb160b8a32"]
 				}
 			}
 		},
@@ -47,13 +38,17 @@
 		},
 		"cafefbc99573106a": {
 			"parent": null,
-			"name": "OUTFIT_LukeStarkiller_Actor_v0",
-			"factory": "004470A9E6A7722D",
-			"blueprint": "00E21A11EC782D9E",
+			"name": "CHARSET_BioSuitA",
+			"factory": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2ce2acdbf16d", "cafedd4e7237be98", "cafe6ed61647593d"],
+					"value": [
+						"cafe2ce2acdbf16d",
+						"cafedd4e7237be98",
+						"cafe6ed61647593d"
+					],
 					"postInit": true
 				}
 			}
@@ -62,16 +57,7 @@
 			"parent": "cafe6ed61647593d",
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/apollo/outfit_luke_starkiller_actor_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		},
 		"cafe2ce2acdbf16d": {
 			"parent": "cafefbc99573106a",
@@ -81,7 +67,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe8fb74e7de94a"]
+					"value": ["cafe8fb74e7de94a", "cafe48e7291b629a"]
 				}
 			}
 		},
@@ -93,9 +79,36 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafee6f89d934946"]
+					"value": ["cafee6f89d934946", "cafe09f8b77c5ce0"]
 				}
 			}
+		},
+		"cafe48e7291b629a": {
+			"parent": "cafe2ce2acdbf16d",
+			"name": "1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/apollo/outfit_luke_starkiller_actor_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe09f8b77c5ce0": {
+			"parent": "cafe6ed61647593d",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe66eb160b8a32": {
+			"parent": "cafedd4e7237be98",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],

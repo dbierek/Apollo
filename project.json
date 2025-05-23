@@ -5,6 +5,8 @@
 		"[assembly:/_pro/characters/templates/apollo/charset_luke_starkiller.entitytemplate].pc_entitytemplate",
 		"[assembly:/_pro/characters/templates/apollo/outfit_luke_starkiller_actor_v0.entitytemplate].pc_entityblueprint",
 		"[assembly:/_pro/characters/templates/apollo/outfit_luke_starkiller_actor_v0.entitytemplate].pc_entitytemplate",
+		"[assembly:/_pro/characters/templates/apollo/outfit_luke_starkiller_actor_v1.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/apollo/outfit_luke_starkiller_actor_v1.entitytemplate].pc_entitytemplate",
 		"[assembly:/_pro/scenes/bricks/menumapsetup_apollo.brick].pc_entityblueprint",
 		"[assembly:/_pro/scenes/bricks/menumapsetup_apollo.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/apollo/mission_moonbase/scene_moonbase.entity].pc_entityblueprint",
