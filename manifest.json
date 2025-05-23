@@ -3,17 +3,11 @@
 	"id": "AtomicForce.Apollo",
 	"name": "Apollo",
 	"description": "A campaign that takes you to the moon.",
-	"authors": [
-		"AtomicForce"
-	],
+	"authors": ["AtomicForce"],
 	"frameworkVersion": "2.33.25",
-	"version": "0.2.0",
-	"blobsFolders": [
-		"blobs"
-	],
-	"contentFolders": [
-		"content"
-	],
+	"version": "0.3.0",
+	"blobsFolders": ["blobs"],
+	"contentFolders": ["content"],
 	"dependencies": [
 		{
 			"toChunk": 2,
@@ -36,9 +30,7 @@
 			"runtimeID": "006A5D0BA30CBE28"
 		}
 	],
-	"peacockPlugins": [
-		"Apollo.plugin.js"
-	],
+	"peacockPlugins": ["Apollo.plugin.js"],
 	"packagedefinition": [
 		{
 			"type": "entity",

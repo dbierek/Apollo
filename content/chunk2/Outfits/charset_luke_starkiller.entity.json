@@ -44,11 +44,7 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe2ce2acdbf16d",
-						"cafedd4e7237be98",
-						"cafe6ed61647593d"
-					],
+					"value": ["cafe2ce2acdbf16d", "cafedd4e7237be98", "cafe6ed61647593d"],
 					"postInit": true
 				}
 			}

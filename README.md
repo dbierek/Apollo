@@ -6,4 +6,4 @@ A campaign that takes you to the moon.
 
 ---
 
-`AtomicForce.Apollo` v0.2.0, by AtomicForce. This README was automatically generated from the mod's manifest.
+`AtomicForce.Apollo` v0.3.0, by AtomicForce. This README was automatically generated from the mod's manifest.

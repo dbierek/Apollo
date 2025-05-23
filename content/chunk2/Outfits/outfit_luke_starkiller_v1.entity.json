@@ -62,12 +62,7 @@
 				},
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe68b5f4ab928a",
-						"cafe9e7d43018286",
-						"cafe0ebe65b8e393",
-						"cafec109c559c88c"
-					],
+					"value": ["cafe68b5f4ab928a", "cafe9e7d43018286", "cafe0ebe65b8e393", "cafec109c559c88c"],
 					"postInit": true
 				}
 			}
